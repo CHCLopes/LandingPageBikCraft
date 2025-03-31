@@ -1,0 +1,44 @@
+@import url(/styles/header.css);
+@import url(/styles/menu.css);
+@import url(/styles/main.css);
+@import url(/styles/introducao.css);
+@import url(/styles/vantagens.css);
+@import url(/styles/footer.css);
+
+:root {
+  --cor-fundo: #f7f7f7;
+  --cor-fonte-menu: #000;
+  --cor-fundo-menu: #fff;
+  --cor-hover-menu: #f00;
+  --cor-botao: #ee2211;
+  --cor-botao-hover: #900;
+  --cor-vantagens-titulo: #c6c6c6;
+  --botao-borda-suave: 0.25rem;
+  --fonte-principal: Arial, Helvetica, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+body{
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  background:  var(--cor-fundo);
+  font-family: var(--fonte-principal);
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  body{
+    gap: 3.5rem;
+  }
+}
