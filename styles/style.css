@@ -1,9 +1,9 @@
-@import url(/styles/header.css);
-@import url(/styles/menu.css);
-@import url(/styles/main.css);
-@import url(/styles/introducao.css);
-@import url(/styles/vantagens.css);
-@import url(/styles/footer.css);
+@import url('./header.css');
+@import url('./menu.css');
+@import url('./main.css');
+@import url('./introducao.css');
+@import url('./vantagens.css');
+@import url('./footer.css');
 
 :root {
   --cor-fundo: #f7f7f7;
