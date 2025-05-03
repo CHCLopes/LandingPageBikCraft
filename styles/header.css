@@ -36,3 +36,9 @@ header > img{
   }
 
 }
+
+@media (prefers-color-scheme: dark) {
+  header > img{
+    filter: invert(1);
+  }
+}

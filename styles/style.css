@@ -17,6 +17,18 @@
   --fonte-principal: Arial, Helvetica, sans-serif;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-fundo: #000;
+    --cor-fonte-menu: #fff;
+    --cor-fundo-menu: #222;
+    --cor-hover-menu: #f00;
+    --cor-botao:  #900;
+    --cor-botao-hover: #ee2211;
+    --cor-vantagens-titulo: #c6c6c6;
+  }
+}
+
 *{
   margin: 0;
   padding: 0;
